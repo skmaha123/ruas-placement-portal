@@ -1,0 +1,23 @@
+{
+  "name": "ruas-placement-portal",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://skmaha123.github.io/ruas-placement-portal/",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "^0.468.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
